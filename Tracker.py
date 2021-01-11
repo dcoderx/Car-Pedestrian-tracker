@@ -1,7 +1,7 @@
 import cv2
 from random import randrange
 
-video = cv2.VideoCapture('dashcam.mp4')
+video = cv2.VideoCapture('cars.mp4')
 
 car_classifier_file = 'haarcascade_car.xml'
 pedestrian_classifier = 'Fullbody.xml'
